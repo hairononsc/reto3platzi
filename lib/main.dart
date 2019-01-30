@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:reto3platzi/description_box.dart';
+
+
 
 void main() => runApp(MyApp());
 
@@ -9,10 +10,28 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        appBar: AppBar(
+          leading:Icon(
+            Icons.menu,
+            color: Colors.white,
+            size: 30.0,
+          ),
+          backgroundColor: Colors.red[400],
+          title:Text(
+            "SUPLIDORES DESTACADOS",
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontFamily: "rubik",
+            ),
+
+          ) ,
+        ),
         body: Stack(
-            children: <Widget>[
-              DescriptionBox("Jordan Asencio!")
-            ],
+          children: <Widget>[
+            Center(
+              child: Text("AJAJJAJA"),
+            )
+          ],
         ),
       ),
     );
