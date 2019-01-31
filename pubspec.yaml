@@ -70,9 +70,9 @@ flutter:
   - assets/img/
 
   fonts:
-    - family: koho
+    - family: Concertone
       fonts:
-        - asset: fonts/koho.ttf
+        - asset: fonts/Concertone.ttf
 #    - family: rubik
 #      fonts:
 #        - asset: fonts/rubik
